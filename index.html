@@ -595,11 +595,14 @@ Buy Now
 
 </footer>
 
-  <script>
+<script>
 document.querySelectorAll('.buy-btn').forEach(button => {
   button.addEventListener('click', function () {
     this.innerText = 'Opening...';
-    this.style.pointerEvents = 'none';
+    
+    setTimeout(() => {
+      this.innerText = 'Buy Now';
+    }, 3000);
   });
 });
-</script>  
+</script>
