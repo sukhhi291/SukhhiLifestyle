@@ -598,11 +598,17 @@ Buy Now
 <script>
 document.querySelectorAll('.buy-btn').forEach(button => {
   button.addEventListener('click', function () {
-    this.innerText = 'Opening...';
-    
+    this.innerText = 'Opening Amazon...';
+
     setTimeout(() => {
       this.innerText = 'Buy Now';
     }, 3000);
+  });
+});
+
+window.addEventListener('pageshow', function () {
+  document.querySelectorAll('.buy-btn').forEach(button => {
+    button.innerText = 'Buy Now';
   });
 });
 </script>
