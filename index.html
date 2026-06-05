@@ -594,3 +594,12 @@ Buy Now
     </p>
 
 </footer>
+
+  <script>
+document.querySelectorAll('.buy-btn').forEach(button => {
+  button.addEventListener('click', function () {
+    this.innerText = 'Opening...';
+    this.style.pointerEvents = 'none';
+  });
+});
+</script>  
