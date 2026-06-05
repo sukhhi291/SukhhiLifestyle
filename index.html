@@ -604,18 +604,18 @@ Buy Now
 
 <script>
 document.querySelectorAll('.buy-btn').forEach(button => {
-  button.addEventListener('click', function () {
-    this.innerText = 'Opening Amazon...';
+    button.addEventListener('click', function () {
+        this.innerText = 'Opening Amazon...';
 
-    setTimeout(() => {
-      this.innerText = 'Buy Now';
-    }, 4000);
-  });
+        setTimeout(() => {
+            this.innerText = 'Buy Now';
+        }, 4000);
+    });
 });
 
 window.addEventListener('pageshow', function () {
-  document.querySelectorAll('.buy-btn').forEach(button => {
-    button.innerText = 'Buy Now';
-  });
+    document.querySelectorAll('.buy-btn').forEach(button => {
+        button.innerText = 'Buy Now';
+    });
 });
 </script>
