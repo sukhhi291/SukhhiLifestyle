@@ -402,13 +402,6 @@ body{
 /* MOBILE RESPONSIVE */
 
 @media(max-width: 768px){
-
-    section{
-    min-height: auto !important;
-    height: auto !important;
-    padding-bottom: 20px !important;
-    margin-bottom: 20px !important;
-}
     
     .navbar{
         flex-direction: column;
@@ -438,18 +431,6 @@ body{
 
     section{
         min-height: auto;
-        
-     footer{
-        margin-bottom: 0 !important;
-        padding-bottom: 10px !important;
-    }
-
-    body{
-        overflow-x: hidden;
-    }
-
-    html, body{
-    height: auto !important;
     }   
         
 .song-container{
