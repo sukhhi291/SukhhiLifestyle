@@ -138,11 +138,11 @@ nav ul li a:hover{
 /* SECTIONS */
 
 section{
-    padding: 40px 8% 10px 8%;
+    padding: 40px 8% 0px 8%;
 
     background: rgba(255,255,255,0.03);
 
-    margin: 10px 5%;
+    margin: 20px 5%;
 
     border-radius: 25px;
 
