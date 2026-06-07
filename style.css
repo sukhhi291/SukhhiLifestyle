@@ -387,6 +387,16 @@ footer a:hover{
     color: #aaa;
 }
 
+footer{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+body{
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
 /* MOBILE RESPONSIVE */
 
 @media(max-width: 768px){
