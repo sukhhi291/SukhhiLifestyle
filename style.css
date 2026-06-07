@@ -438,8 +438,20 @@ body{
 
     section{
         min-height: auto;
+        
+     footer{
+        margin-bottom: 0 !important;
+        padding-bottom: 10px !important;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
+    html, body{
+    height: auto !important;
+    }   
+        
 .song-container{
     display: flex;
     gap: 10px;
