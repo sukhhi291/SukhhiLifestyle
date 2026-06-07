@@ -429,6 +429,10 @@ body{
         font-size: 50px;
     }
 
+    section{
+        min-height: auto;
+    }
+
 .song-container{
     display: flex;
     gap: 10px;
